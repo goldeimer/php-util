@@ -1,17 +1,18 @@
 {
-    "name": "goldeimer/php-util",
-    "type": "library",
-    "description": "Goldeimer's PHP utility library",
     "autoload": {
         "psr-4": {
             "Goldeimer\\PhpUtil\\": "src"
         }
     },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
+    "description": "Goldeimer's PHP utility library",
     "extra": {
         "branch-alias": {
             "dev-master": "0.2-dev"
         }
-    }
+    },
+    "license": "BSD-2-Clause",
+    "minimum-stability": "dev",
+    "name": "goldeimer/php-util",
+    "prefer-stable": true,
+    "type": "library"
 }
